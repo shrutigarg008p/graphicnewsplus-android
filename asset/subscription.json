@@ -1,0 +1,250 @@
+{
+  "STATUS": 1,
+  "MESSAGE": "data received",
+  "data": {
+    "plans": [
+      {
+        "key": "BU",
+        "value": "Bundle",
+        "description": "To buy multiple publications, use the BUNDLE option",
+        "period": [
+          {
+            "key": "W",
+            "value": "Weekly"
+          },
+          {
+            "key": "M",
+            "value": "Monthly"
+          },
+          {
+            "key": "Q",
+            "value": "Quaterly"
+          },
+          {
+            "key": "H",
+            "value": "Half-yearly"
+          },
+          {
+            "key": "Y",
+            "value": "Yearly"
+          }
+        ],
+        "packages": [
+          {
+            "key": "DA",
+            "value": "DAILY",
+            "description": "Daily Graphic",
+            "duration": [
+              {
+                "key": "W",
+                "value": "Weekly",
+                "price": 15,
+                "discount": null
+              },
+              {
+                "key": "M",
+                "value": "Monthly",
+                "price": 60,
+                "discount": null
+              },
+              {
+                "key": "Q",
+                "value": "Quaterly",
+                "price": 162,
+                "discount": "5%"
+              },
+              {
+                "key": "H",
+                "value": "Half-yearly",
+                "price": 324,
+                "discount": "10%"
+              },
+              {
+                "key": "Y",
+                "value": "Yearly",
+                "price": 648,
+                "discount": "15%"
+              }
+            ]
+          },
+          {
+            "key": "DI",
+            "value": "DIVA",
+            "description": "The Mirror & Graphic Showbiz",
+            "duration": [
+              {
+                "key": "W",
+                "value": "Weekly",
+                "price": 4.5,
+                "discount": null
+              },
+              {
+                "key": "M",
+                "value": "Monthly",
+                "price": 18,
+                "discount": null
+              },
+              {
+                "key": "Q",
+                "value": "Quaterly",
+                "price": 48.6,
+                "discount": "5%"
+              },
+              {
+                "key": "H",
+                "value": "Half-yearly",
+                "price": 97.2,
+                "discount": "10%"
+              },
+              {
+                "key": "Y",
+                "value": "Yearly",
+                "price": 194.4,
+                "discount": "15%"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "CU",
+        "value": "Custom",
+        "description": "To buy just one publication, use the CUSTOM option",
+        "period": [
+          {
+            "key": "W",
+            "value": "Weekly"
+          },
+          {
+            "key": "M",
+            "value": "Monthly"
+          },
+          {
+            "key": "Q",
+            "value": "Quaterly"
+          },
+          {
+            "key": "H",
+            "value": "Half-yearly"
+          },
+          {
+            "key": "Y",
+            "value": "Yearly"
+          }
+        ],
+        "packages": [
+          {
+            "key": "DG",
+            "value": "Daily Graphic",
+            "description": "6 Issues Per Week",
+            "duration": [
+              {
+                "key": "W",
+                "value": "Weekly",
+                "price": 7.5,
+                "discount": null
+              },
+              {
+                "key": "M",
+                "value": "Monthly",
+                "price": 30,
+                "discount": null
+              },
+              {
+                "key": "Q",
+                "value": "Quaterly",
+                "price": 81,
+                "discount": "5%"
+              },
+              {
+                "key": "H",
+                "value": "Half-yearly",
+                "price": 162,
+                "discount": "10%"
+              },
+              {
+                "key": "Y",
+                "value": "Yearly",
+                "price": 324,
+                "discount": "15%"
+              }
+            ]
+          },
+          {
+            "key": "TM",
+            "value": "The Mirror",
+            "description": "1 Issue Per Week - Sat Only",
+            "duration": [
+              {
+                "key": "W",
+                "value": "Weekly",
+                "price": 3,
+                "discount": null
+              },
+              {
+                "key": "M",
+                "value": "Monthly",
+                "price": 12,
+                "discount": null
+              },
+              {
+                "key": "Q",
+                "value": "Quaterly",
+                "price": 32.4,
+                "discount": "5%"
+              },
+              {
+                "key": "H",
+                "value": "Half-yearly",
+                "price": 64.8,
+                "discount": "10%"
+              },
+              {
+                "key": "Y",
+                "value": "Yearly",
+                "price": 129.6,
+                "discount": "15%"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "PR",
+        "value": "Premium",
+        "description": "This gives you access to premium content outside your subscribed epaper publications for the duration selected.",
+        "period": [
+          {
+            "key": "H",
+            "value": "Half-yearly"
+          },
+          {
+            "key": "Y",
+            "value": "Yearly"
+          }
+        ],
+        "packages": [
+          {
+            "key": "PC",
+            "value": "Premium Content",
+            "description": "Top Stories, Promoted Content",
+            "duration": [
+              {
+                "key": "H",
+                "value": "Half-yearly",
+                "price": 324,
+                "discount": "5%"
+              },
+              {
+                "key": "Y",
+                "value": "Yearly",
+                "price": 648,
+                "discount": "10%"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,205 @@
+name: graphics_news
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 14.0.8+22
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  flutter_svg: ^0.22.0
+  carousel_slider: ^4.0.0
+  dots_indicator:
+  webview_flutter: ^3.0.4
+  email_validator: ^2.0.1
+  intl: ^0.17.0
+  shared_preferences: ^2.0.6
+  audioplayers: ^0.20.1
+  youtube_player_flutter:
+  flutter_screenutil: ^5.0.0+2
+  syncfusion_flutter_pdfviewer: ^20.3.47
+  permission_handler: ^10.0.2
+  dio:
+  path_provider:
+  provider:
+  retrofit: any
+  json_annotation:
+  bloc:
+  onesignal_flutter:
+  google_mobile_ads:
+  cached_network_image:
+  google_fonts:
+  flutter_tts: ^3.0.0
+  sqflite:
+  ndialog:
+  connectivity_plus: ^2.2.0
+  country_pickers:
+  fluttertoast:
+  google_sign_in:
+  device_info_plus: ^3.1.1
+  firebase_auth:
+  firebase_core:
+  sign_in_with_apple: ^3.3.0
+  share_plus: ^4.0.8
+  flutter_html:
+  url_launcher:
+  focus_detector:
+  flutter_spinkit: ^5.1.0
+  flutter_device_type:
+  responsive_grid:
+  flutter_staggered_grid_view: ^0.4.0
+  in_app_purchase:
+  firebase_analytics: ^9.3.3
+  uni_links: ^0.5.1
+  logger: ^1.1.0
+  firebase_dynamic_links: ^4.3.11
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  retrofit_generator: any
+  build_runner: any
+  json_serializable:
+
+flutter:
+  uses-material-design: true
+
+  # To add asset to your application, add an asset section, like this:
+  assets:
+    - images/
+    - asset/
+
+  fonts:
+    - family: Customicons
+      fonts:
+        - asset: icons/Customicons.ttf
+
+    - family: SpeakerIcon
+      fonts:
+        - asset: icons/SpeakerIcon.ttf
+
+    - family: BookmarkIcon
+      fonts:
+        - asset: icons/BookmarkIcon.ttf
+
+    - family: ContactLeftIcon
+      fonts:
+        - asset: icons/ContactLeftIcon.ttf
+
+    - family: DownloadsLeftIcon
+      fonts:
+        - asset: icons/DownloadsLeftIcon.ttf
+
+    - family: FAQLeftIcon
+      fonts:
+        - asset: icons/FAQLeftIcon.ttf
+
+    - family: LogoutLeftIcon
+      fonts:
+        - asset: icons/LogoutLeftIcon.ttf
+
+
+    - family: DeletAccount
+      fonts:
+        - asset: icons/DeletAccount.ttf
+
+
+
+    - family: MagazineLeftIcon
+      fonts:
+        - asset: icons/MagazineLeftIcon.ttf
+
+    - family: NewsLeftIcon
+      fonts:
+        - asset: icons/NewsLeftIcon.ttf
+
+    - family: ProfileLeftIcon
+      fonts:
+        - asset: icons/ProfileLeftIcon.ttf
+
+    - family: ReferLeftIcon
+      fonts:
+        - asset: icons/ReferLeftIcon.ttf
+
+    - family: ServicesLeftIcon
+      fonts:
+        - asset: icons/ServicesLeftIcon.ttf
+
+    - family: SubscriptionLeftIcon
+      fonts:
+        - asset: icons/SubscriptionLeftIcon.ttf
+
+    - family: DOBIcon
+      fonts:
+        - asset: icons/DOBIcon.ttf
+
+    - family: HomeCalanderIcon
+      fonts:
+        - asset: icons/HomeCalanderIcon.ttf
+
+    - family: ListingCalanderIcon
+      fonts:
+        - asset: icons/ListingCalanderIcon.ttf
+
+    - family: MenuIcon
+      fonts:
+        - asset: icons/MenuIcon.ttf
+
+    - family: UncheckIcon
+      fonts:
+        - asset: icons/UncheckIcon.ttf
+
+    - family: SettingIcon
+      fonts:
+        - asset: icons/SettingIcon.ttf
+
+    - family: AboutIcon
+      fonts:
+        - asset: icons/AboutIcon.ttf
+
+    - family: FAQIcon
+      fonts:
+        - asset: icons/FAQIcon.ttf
+
+    - family: BookIcon
+      fonts:
+        - asset: icons/BookIcon.ttf
+
+    - family: ContactIcon
+      fonts:
+        - asset: icons/ContactIcon.ttf
+
+    - family: DateCalenderIcon
+      fonts:
+        - asset: icons/DateCalenderIcon.ttf
+
+    - family: EyeIcon
+      fonts:
+        - asset: icons/EyeIcon.ttf
+
+    - family: FBIcon
+      fonts:
+        - asset: icons/FBIcon.ttf
+
+    - family: HomeIcon
+      fonts:
+        - asset: icons/HomeIcon.ttf
+
+    - family: TwitterIcon
+      fonts:
+        - asset: icons/TwitterIcon.ttf
+
+    - family: YoutubeIcon
+      fonts:
+        - asset: icons/YoutubeIcon.ttf
